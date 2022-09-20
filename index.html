@@ -21,6 +21,7 @@
 
   <body>
     <!-- HEADER -->
+
     <section id="header">
       <img
         src="assets/images/circle-me.png"
@@ -30,19 +31,54 @@
 
       <h1 class="header">Christopher Kühn</h1>
       <h3 class="subtitle">Fotograf aus Köln</h3>
-      <!-- <hr class="half-line" /> -->
-      <a href="tel:+4915732620558"
-        ><img src="assets/icons/square-phone-solid.svg" class="contact-icon"></img
-      ></a>
-      <a href="https://social.kuehnfotografie.de/contact.vcf"
-        ><img src="assets/icons/address-card-regular.svg" class="contact-icon"></img
-      ></a>
-      <a href="mailto:kontakt@kuehnfotografie.de"
-        ><img src="assets/icons/envelope-regular.svg" class="contact-icon"></img
-      ></a>
-      <a href="https://calendly.com/kuehnfotografie/30min" target="_blank"
-      ><img src="assets/icons/calendar-days-solid.svg" class="contact-icon"></img
-    ></a>
+
+      <!-- CONTACT ICONS -->
+      <a href="tel:+4915732620558" class="tooltip">
+        <span class="tooltiptext">Telefon</span>
+        <img
+          src="assets/icons/square-phone-solid.svg"
+          alt="phone icon"
+          class="contact-icon"
+      /></a>
+      <a href="mailto:kontakt@kuehnfotografie.de" class="tooltip">
+        <span class="tooltiptext">E-Mail</span>
+        <img
+          src="assets/icons/envelope-regular.svg"
+          alt="mail icon"
+          class="contact-icon"
+        />
+      </a>
+      <a
+        href="https://www.instagram.com/kuehnfotografie/"
+        class="tooltip"
+        target="_blank"
+      >
+        <span class="tooltiptext">Instagram</span>
+        <img
+          src="assets/icons/instagram.svg"
+          alt="instagram icon"
+          class="contact-icon"
+        />
+      </a>
+      <a
+        href="https://twitter.com/KuhnFotografie"
+        class="tooltip"
+        target="_blank"
+      >
+        <span class="tooltiptext">Twitter</span>
+        <img
+          src="assets/icons/twitter.svg"
+          alt="twitter icon"
+          class="contact-icon"
+      /></a>
+
+      <a href="https://vero.co/kuehnfotografie" class="tooltip" target="_blank">
+        <span class="tooltiptext">Vero</span>
+        <img
+          src="assets/icons/VERO_Icon_Rounded Border_Black.svg"
+          alt="vero icon"
+          class="contact-icon"
+      /></a>
     </section>
 
     <!-- MAIN CARDS -->
@@ -54,62 +90,34 @@
       class="section-link"
     >
       <section class="link-section">
-        <h3>Website</h3>
+        <h3>Internetseite</h3>
       </section>
     </a>
 
-    <!-- INSTAGRAM -->
-    <a
-      href="https://www.instagram.com/kuehnfotografie/"
-      target="_blank"
-      class="section-link"
-    >
+    <!-- CONTACT -->
+    <a href="/assets/contact.vcf" target="_blank" class="section-link">
       <section class="link-section">
-        <h3>Instagram</h3>
+        <h3>Kontakt hinzufügen</h3>
       </section>
     </a>
 
-    <!-- TWITTER -->
+    <!-- CALENDLY -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
     <a
-      href="https://twitter.com/KuhnFotografie"
-      target="_blank"
+      href=""
+      onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kuehnfotografie/erstgespraech'});return false;"
       class="section-link"
     >
       <section class="link-section">
-        <h3>Twitter</h3>
-      </section>
-    </a>
-
-    <!-- VERO -->
-    <a
-      href="https://vero.co/kuehnfotografie"
-      target="_blank"
-      class="section-link"
-    >
-      <section class="link-section">
-        <h3>Vero</h3>
-      </section>
-    </a>
-
-    <!-- PINTEREST -->
-    <a
-      href="https://www.pinterest.de/kuehnfotografie/"
-      target="_blank"
-      class="section-link"
-    >
-      <section class="link-section">
-        <h3>Pinterest</h3>
-      </section>
-    </a>
-
-    <!-- 500PX -->
-    <a
-      href="https://500px.com/p/KuehnFotografie?view=photos"
-      target="_blank"
-      class="section-link"
-    >
-      <section class="link-section">
-        <h3>500 PX</h3>
+        <h3>Erstgespräch vereinbaren</h3>
       </section>
     </a>
 
